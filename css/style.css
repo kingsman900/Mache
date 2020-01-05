@@ -1,0 +1,352 @@
+/*
+
+Author : Mahamudul Hasan ;
+Email  : kingsmanhasan9@gmail.com ;
+
+
+=====[Index]====
+[1]Header
+[2]About
+[3]Service
+[4]Demo
+[5]Price
+[6]Qualities
+[7]updates
+[8]Template
+[9]Download
+[10]Footer
+
+
+
+
+*/
+
+/*====[Global css]====*/
+.btn1{
+    border: 1px;
+    background-color: #ed145b;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 20px;
+    display: block;
+    margin: 50px auto;
+}
+.btn2{
+    background-color: transparent;
+    border: none;
+    color: #ed145b;
+    display: block;
+    margin: 100px auto;
+}
+
+span{
+    border-bottom: 2px solid #ed145b;
+    width: 120px;
+    display: block;
+    margin: 30px auto 0px;
+}
+p{
+    margin: 30px auto;
+    padding: 30px 0;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+}
+ul li{
+    
+}
+
+/*====[Header]====*/
+header{
+    background: url(../img/Mache_Template-Symu_co.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+header h2{
+    color: #ffff;
+}
+header p{
+    color: #ffff;
+    margin-top: 30px;
+}
+.fa.fa-cube{
+    color:#ed145b;
+    font-size: 30px;
+    
+    
+}
+ 
+.nav-link.js-scroll-trigger.active{
+    color: #ed145b;
+}
+.nav-link.js-scroll-trigger{
+    color:#ffff;
+}
+/*====[About]====*/
+
+.about{
+    background: url(../img/2nd-layer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 100px 0px;
+}
+.laptop{
+    width: 450px;
+    display: block;
+    float: right;
+}
+.btn-left{
+    float: left!important;
+}
+.about p{
+    margin-top: 60px;
+}
+.fa.fa-play-circle-o{
+    padding: 2px 5px;
+}
+
+/*====[Service]====*/
+.service{
+    text-align: center;
+    padding: 100px 0px;
+}
+.service-icon{
+    margin: 30px auto;
+}
+.image-fluid-new{
+    width:80px;
+    margin-bottom: 20px;
+}
+/*====[Demo]====*/
+.fa.fa-angle-left{
+    font-size: 30px;
+    color: #ffff;
+}
+.fa.fa-angle-right{
+    font-size: 30px;
+    color: #ffff;
+}
+.new{
+    position: absolute;
+    top:25%;
+}
+/*====[Price]====*/
+.price{
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 100px 0px;
+}
+.price p{
+    padding: 0px!important;
+    margin: 0px!important;
+}
+h5{
+    padding: 30px 0px;
+    
+}
+.btn3{
+    border: 1px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    display: block;
+    margin: 10px auto;
+    position: absolute;
+    top: -25px;
+    right: 72px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.card-head{
+    background-color: #5a5a5a;
+    padding: 0px 0px 50px;
+    
+}
+.card:hover
+.card-head{
+    background-color: #ed145b;
+    transition: 0.8s ease-in-out;
+}
+.card-body{
+    position: relative;
+}
+.price b{
+    font-size: 50px;
+}
+/*====[Qualities]====*/
+.qualities{
+    padding: 100px 0px;
+    text-align: left;
+}
+.qualities h6{
+    color:#ed145b;
+}
+.qliti{
+    margin-bottom: 30px;
+}
+
+
+
+
+/*====[Contact]====*/
+.contact{
+    background-color: #ed145b;
+    padding: 100px 0px;
+}
+.contact h6{
+    text-align: center;
+}
+.frm{
+    margin: 0px ;
+    background-color: #ffff;
+    color: #161616;
+    
+}
+.form-main{
+    margin: 50px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e3e7e14a;
+}
+.form-control{
+    margin: 20px 0px;
+}
+#Sign-In-link{
+    display: block;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn4{
+    display: block;
+    background-color: transparent;
+    border: 2px solid #161616;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 20px auto;
+}
+
+/*====[updates]====*/
+.updates{
+    text-align: center;
+    padding: 100px 0px;
+}
+.image-fluid{
+    width: 100%;
+}
+.image-hover{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.hover-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ed145b;
+    opacity: 0 ;
+    
+        
+}
+.fa.fa-search{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+    color: #fff;
+}
+.image-hover:hover
+.hover-content{
+    opacity: 0.6;
+    transition: 0.5s ease-in-out
+}
+/*====[Template]====*/
+.template{
+    background: url(../img/Mache_Template-Symu_co.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+    color: #fff;
+    text-align: center
+}
+
+/*====[Download]====*/
+.download{
+    padding: 100px 0px;
+    text-align: left;
+}
+.download p{
+    padding-bottom: 10px;
+}
+.browser{
+    width: 450px;
+}
+.top{
+    margin: 0px 0px;
+}
+
+/*====[Footer]====*/
+footer{
+    background-color: #2b2b2b;
+    color: #fff;
+}
+.footer-left{
+    text-align: left;
+}
+.footer-right{
+    text-align: right
+}
+/*====[Media Quari]=====*/
+@media(min-width:0px) and (max-width:500px){
+    .container{
+        width: 95%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+       font-size: 20px; 
+    }
+    h5{
+        font-size: 18px;
+        
+    }
+    h6{
+        font-size:15px
+            
+    }
+    p{
+        font-size: 13px;
+    }
+    .qualities{
+        text-align: center!important;
+    }
+    .qliti-img{
+        display: block;
+        margin: 0px auto;
+    }
+    .frm{
+    margin: 10px auto;
+    background-color: #ffff;
+    color: #161616;
+        
+    
+    }
+    .footer-left{
+    text-align: center;
+    margin: 10px 0px;
+}
+    .footer-right{
+    text-align: center;
+    margin: 10px 0px;
+    }
+    
+    
+    
+}
+
